@@ -24,7 +24,6 @@ public class Service {
 
     public void startGame() {
         String word = getRandomWord();
-        System.out.println(word);
         char[] letters = new char[word.length()];
         fillArray(letters);
         printer.printGame(word, 0);
